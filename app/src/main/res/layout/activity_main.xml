@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLEASE CHECK LOGCAT OR RUN SECTION FOR RESULTS"
+        android:textColor="#E61010"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/string_log"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:onClick="stringLog"
+                android:text="string log" />
+
+            <Button
+                android:id="@+id/int_log"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:onClick="intLog"
+
+                android:text="int log" />
+
+            <Button
+                android:id="@+id/bool_log"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:onClick="boolLog"
+
+                android:text="boolean log" />
+
+            <Button
+                android:id="@+id/string_array_log"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:onClick="stringArrayLog"
+
+                android:text="string array log" />
+
+            <Button
+                android:id="@+id/stringarray_int_log"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:onClick="stringArrayIntLog"
+                android:text="string array + int log" />
+
+            <Button
+                android:id="@+id/stringmap_log"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:onClick="stringMapLog"
+                android:text="string Map log" />
+
+            <Button
+                android:id="@+id/string_bool_log"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:onClick="stringBoolLog"
+
+                android:text="string + boolean log" />
+
+            <Button
+                android:id="@+id/string_int_log"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:onClick="stringIntLog"
+
+                android:text="string + int log" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
