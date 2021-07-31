@@ -1,4 +1,6 @@
 # SimpleLog.Log
+
+
 SimpleLog.Log library can help you to log the output easily wihout mannually writing code to print debug log or error log.
 
 
@@ -29,7 +31,7 @@ allprojects {
   
   ```
   dependencies {
-	        implementation 'com.github.sampatsharma143:Android-Gradient-TextView:1.0.0'
+	         implementation 'com.github.sampatsharma143:SimpleLog.Log:1.0.0'
 	}
   
   ```
