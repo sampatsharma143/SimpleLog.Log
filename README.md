@@ -2,7 +2,7 @@
 SimpleLog.Log library can help you to log the output easily wihout mannually writing code to print debug log or error log.
 
 
-# How to add in your project
+
 
 
 
@@ -10,6 +10,7 @@ SimpleLog.Log library can help you to log the output easily wihout mannually wri
 ![Android Log Library](/../master/LogDemo.jpeg?raw=true "Demo App ScreenShot")
 
 
+# How to add in your project
 
 
 #HOW TO LOG
